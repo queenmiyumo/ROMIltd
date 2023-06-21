@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(28, 187, 190);
+    
+}
+.logo{
+    width: 130px;
+    height: 80px;
+}
+header{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQevtRc7DBtiMzXqr0R6F0TZYMgFDavO7MPPFG8rIfL3A&s");
+}
+.placeholder{
+    width: 350px;
+    height: 45px;
+    background-color: #0000;
+    opacity: 900px;
+    
+}
+.icon{
+    width: 80px;
+    margin-left: 140px;
+}
+.login{
+    align-items: center;
+    justify-content: center;
+    margin-left: 490px;
+}
+.Btn1{
+    text-decoration: none;
+    color: rgb(190, 201, 221);
+    width: 250px;
+    height: 50px;
+    background-color: rgb(171, 216, 227);
+    margin-left: 60px;
+    font-size:20px;
+    
+}
+.Btn2{
+    text-decoration: none;
+    background-color: rgb(171, 216, 227);
+    width: 90px;
+    height: 30px;
+    font-size: 17px;
+    margin-left: 1100px;
+    
+}

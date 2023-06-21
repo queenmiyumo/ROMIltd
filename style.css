@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQevtRc7DBtiMzXqr0R6F0TZYMgFDavO7MPPFG8rIfL3A&s");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+   
+}
+body{
+    background-color: rgb(28, 187, 190);
+    background-repeat: no-repeat;
+    background-size: cover;
+    clear: both;
+    width: 100vw;
+    overflow-x: hidden;
+}
+.logo{
+    height: 90px;
+    /* width: 170px; */
+    margin-right: 1200px;
+}
+.navBar{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    padding: 25px 0;
+    justify-content: center;
+    /* margin-left: 50px; */
+
+}
+.navBar ul li{
+    list-style: none;
+    display: inline-flex;
+    margin:0 20px;
+    position: relative;
+    margin-left: 200px;
+}
+.navBar ul li a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+.navBar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: gold;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+  
+}
+.navBar ul li:hover::after{
+    width: 100%;
+}
+.hero-content{
+    margin: 0;
+    box-sizing: border-box;
+    display: block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    justify-content: space-between;
+    color: rgb(0, 0, 0);
+    background-image: url("https://cdnb.artstation.com/p/assets/images/images/048/429/187/large/sergio-casas-sets9.jpg?1650006305");
+    background-size: cover;
+    background-position: center;
+    padding: 150px;
+    font-size: 40px;
+}
+.input{
+    background-color:rgb(107, 107, 255);
+    opacity:0.6;
+    filter:alpha(opacity=60);
+    font-size: medium;
+    border: #ffff;
+    height: 72px;
+    width: 350px;
+    color: azure;
+    font-size: 40px;
+}
+.Btn1{
+    background: rgb(107, 107, 255);
+    color: aliceblue;
+    width: 200px;
+    height: 69px;
+    font-size: 40px;
+    font-family: Arial;
+}
+.begin{
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items:center;
+}
+.products{
+    width: 80%;
+    height: 95%;
+}
+
+.prodcategory{
+    font-style: italic;
+    margin: 3px;
+    color: saddlebrown;
+}
+
+.container{
+    width: 100%;
+    padding: 50px;
+
+}
+
+.cart{
+    width: 80px;
+    height: 30px;
+    font-style: italic;
+    border-radius: 6px;
+}
+
+.categoryname {
+    text-transform: capitalize;
+}
+
+
+.hidden {
+    display: none;
+}
+.categories{
+    font-size: 23px;
+
+}
+
+.main {
+    width: 100%;
+    display: flex;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+}
